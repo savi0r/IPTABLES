@@ -72,6 +72,7 @@ The coming headers are nodes which you are assumed to have ssh access to them.
 
 <h3>Client-1:</h3>
 So here we need to accept ssh connection from anywhere so we achieve that through running the command below:
+
 ```
 iptables -A INPUT -p tcp --dport 22 -j ACCEPT 
 ```
@@ -186,6 +187,7 @@ sudo iptables -P INPUT DROP
 
 <h3>Client2:</h3>
 Change default gateway to our router ( traceroute can prove that )
+
 ```
 route add default gw 192.168.72.6 eth0  
 ```
