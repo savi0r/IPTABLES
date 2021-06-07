@@ -67,6 +67,8 @@ sudo iptables -t <table name> -nvL #if you does not define table name it will de
 
 <h2>Test case scenario:</h2>
 
+![scenario](img/1.jpg)
+
 <h2>How to achieve a soluiton:</h2>
 The coming headers are nodes which you are assumed to have ssh access to them.
 
